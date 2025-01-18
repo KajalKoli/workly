@@ -5,3 +5,5 @@ Mark them as complete. Delete them as needed.
 
 #This app is written in typescript; html and css are used for UI components. 
 #It uses live-server 
+
+![WORKLY - Be productive. A demo](demo/demo.gif)
