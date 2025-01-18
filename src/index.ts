@@ -48,6 +48,7 @@ type Task = {
     console.log(tasks);
 
     tasks.push(newTask);
+    renderTasks();
   }
   
   function toggleTaskCompletion(taskId: number): void {
