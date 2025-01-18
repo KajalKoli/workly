@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workly - Be Productive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app" class="form-container">
+    <div class="header">
+      <h1>WORKLY</h1>
+      <p>Be productive, achieve your goals.</p>
+    </div>
+    <form id="todo-form">
+      <div class="input-group">
+        <input type="text" id="todo-input" placeholder="Enter a task" required />
+        <button type="submit">Add Task</button>
+      </div>
+    </form>
+    <ul id="todo-list"></ul>
+  </div>
+  <script type="module" src="./dist/index.js"></script>
+</body>
+</html>
